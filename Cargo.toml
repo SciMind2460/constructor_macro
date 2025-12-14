@@ -9,4 +9,4 @@ license = "MIT OR Apache-2.0"
 keywords = ["constructor", "derive"]
 
 [dependencies]
-macros = { path = "macros", version = "0"}
+macros = { path = "./macros", version = "0"}
