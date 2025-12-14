@@ -8,5 +8,8 @@ repository = "https://github.com/SciMind2460/constructor_macro"
 license = "MIT OR Apache-2.0"
 keywords = ["constructor", "derive"]
 
+[dependencies]
+constructor_macro_internal = "0"
+
 [workspace]
 members = ["constructor_macro_internal"]
