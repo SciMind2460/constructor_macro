@@ -1,5 +1,5 @@
 [package]
-name = "constructor_macro"
+name = "ctor_macro"
 version = "0.1.0"
 edition = "2024"
 description = "A derive proc-macro that automatically derives a constructor for your struct!"

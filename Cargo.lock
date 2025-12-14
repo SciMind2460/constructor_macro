@@ -3,13 +3,6 @@
 version = 4
 
 [[package]]
-name = "constructor_macro"
-version = "0.1.0"
-dependencies = [
- "constructor_macro_internal 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "constructor_macro_internal"
 version = "0.1.0"
 dependencies = [
@@ -25,6 +18,13 @@ checksum = "1910f00aa356c13cc6af183899c530623a68b7ccf7c342f6f41cad08981ec68a"
 dependencies = [
  "quote",
  "syn",
+]
+
+[[package]]
+name = "ctor_macro"
+version = "0.1.0"
+dependencies = [
+ "constructor_macro_internal 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
