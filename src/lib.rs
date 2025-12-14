@@ -1,7 +1,7 @@
 #![no_std]
 extern crate alloc;
 
-pub use macros::Constructor;
+pub use constructor_macro_internal::Constructor;
 
 #[cfg(test)]
 mod tests {

@@ -6,11 +6,11 @@ version = 4
 name = "constructor_macro"
 version = "0.1.0"
 dependencies = [
- "macros",
+ "constructor_macro_internal",
 ]
 
 [[package]]
-name = "macros"
+name = "constructor_macro_internal"
 version = "0.1.0"
 dependencies = [
  "quote",
