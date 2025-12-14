@@ -1,5 +1,4 @@
 #![no_std]
-extern crate alloc;
 
 pub use constructor_macro_internal::Constructor;
 
