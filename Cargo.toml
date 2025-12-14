@@ -8,5 +8,5 @@ repository = "https://github.com/SciMind2460/constructor_macro"
 license = "MIT OR Apache-2.0"
 keywords = ["constructor", "derive"]
 
-[dependencies]
+[dev-dependencies]
 macros = { path = "./macros", version = "0"}
